@@ -1,0 +1,21 @@
+.capital {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.images {
+    margin-top: 130px;
+}
+
+.feature-text {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.img-cont {
+    text-align: center;
+    height: 136px;
+    width: 129px;
+}
