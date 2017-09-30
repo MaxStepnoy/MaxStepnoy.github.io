@@ -1,0 +1,52 @@
+.headline-center {
+    text-align: center;
+}
+
+.img-center {
+    text-align: center;
+    }
+
+.content {
+    border: solid 1px black;
+    background-color: darkorange;
+}
+
+.background{
+    background-color: bisque;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-color {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.size-menu {
+    font-size: 20px;
+}
+
+.size-menu li{
+    width: 200px;
+    margin:auto;
+}
+
+.size-text{
+    font-size: 20px;
+
+}
+
+.index{
+    text-align: center;
+}
