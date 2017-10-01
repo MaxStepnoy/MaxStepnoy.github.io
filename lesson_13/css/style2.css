@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+.main-bg {
+    width: 570px;
+    height: 570px;
+    background-image: url(http://i95.fastpic.ru/big/2017/1001/94/aac70de8b5f1d1dae964f5cae6af7194.png);
+    padding: 100px 125px;
+}
+
+.main-window {
+    border: solid 1px #cfdede;
+    background-color:  #ffffff;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
+    width: 320px;
+    height: 370px;
+
+}
+
+.main-window-title {
+    background-color:  #01b3b3;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    width: 149px;
+    height: 25px;
+    margin-left: 30px;
+    margin-top: -3px;
+    padding: 10px;
+}
+
+.title-text {
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    margin-left: -1px;
+    margin-right: -4px;
+    margin-bottom: -8px;
+    margin-top: -4px;
+    
+}
+
+.main-window-form{
+    height: 285px;
+    width: 260px;
+    margin-top: 28px;
+    margin-left: 30px;
+}
+
+
+.form-block{
+    width: 260;
+    height: 56px;
+    margin-bottom: 19px
+}
+
+.form-block-title {
+    font-family: Arial;
+    color:  #333333;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 10px;
+    text-align: left;
+}
+.decor {
+    color:  #01b3b3;
+}
+
+input{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #cfdede;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
+    width: 260px;
+    height: 30px;
+    font-family: Arial;
+    color:  #777777;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    font-style: italic; 
+    margin-top: 11px;
+    padding-left: 11px;
+    background-image: url(http://i95.fastpic.ru/big/2017/1001/94/aac70de8b5f1d1dae964f5cae6af7194.png)
+}
+
+.form-button {
+    margin-top: 20px;
+    border-radius: 4px;
+    border: solid 1px  #dcdcdc;
+    box-sizing: border-box;
+    background: #01b3b3;
+    width: 260px;
+    height: 45px;
+    text-transform: uppercase;
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1); 
+
+}
