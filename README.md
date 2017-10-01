@@ -7,3 +7,4 @@
 * [Урок8. Тренировка с Bootsrap](https://maxstepnoy.github.io/lesson_8/src/index.html)
 * [Урок9. Верстка макета с Bootsrap](https://maxstepnoy.github.io/lesson_9/src/index.html)
 * [Урок10. Написал первый LESS файл](https://maxstepnoy.github.io/lesson_10/main.less)
+* [Урок13. Pixel perfect](https://maxstepnoy.github.io/lesson_13/index2.html)
