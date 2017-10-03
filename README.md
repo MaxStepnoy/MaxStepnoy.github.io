@@ -11,4 +11,4 @@
 * [Практика, часть 1. Шапка первого серьезного макета](MaxStepnoy.github.io/lesson_14/src/index.html)
 * [Урок14. Научился подключать шрифты](https://maxstepnoy.github.io/Lesson_14/index.html)
 * [Практика, часть 2. Сверстал первый блок](https://maxstepnoy.github.io/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0%20%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%202/src/index.html)
-
+* [Урок15. Разобрался в псевдоэлементах и псевдоклассах](https://maxstepnoy.github.io/lesson_15/index.html)
