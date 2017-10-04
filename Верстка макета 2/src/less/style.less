@@ -48,15 +48,28 @@ body {
     .reg();
 }
 
+a:hover {
+    text-decoration: none;
+}
+
+button, input, a {
+    &:focus{
+        outline:none;
+    }
+}
 .button {
-    
     padding: 1rem 3rem;
-    border-radius: 8;
+    border-radius: 8px;
     font-size: 1.2rem;
     text-transform: uppercase;
-    border:none;
+    border: none;
     background-color: @btn-color;
     color: @light;
+    transition: all 0.2s;
+    &:hover{
+        cursor: pointer;
+        background-color: darken(@btn-color, 5%);
+    }
 }
 
 // Typography
@@ -103,6 +116,7 @@ section{
         margin-top: 10rem;
         // главный заголовок
         h1 {
+            margin-top: 0;
             margin-bottom: 4rem;
             .bold();
             font-size: 4rem;
@@ -180,3 +194,31 @@ section{
 }
 
 
+@media (max-width: 991px) {
+    .main {
+        background-position: top right;
+    }
+
+    .phone-block {
+        text-align: center;
+    }
+    .main-content {
+        margin-top: 3rem;
+    }
+    .main-title {
+        text-align: center;
+        padding-bottom: 3rem
+    }
+}
+
+@media (max-width: 767px) {
+    .main {
+        background-position: left top;
+    }
+    .header {
+        text-align: center;
+    }
+    .wrap-block {
+        text-align: center;
+    }
+}
