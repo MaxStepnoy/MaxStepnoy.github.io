@@ -14,3 +14,4 @@
 * [Урок15. Разобрался в псевдоэлементах и псевдоклассах](https://maxstepnoy.github.io/lesson_15/index.html)
 * [Практика, часть 3. Адаптив](https://maxstepnoy.github.io/Project3/project3/src/index.html)
 * [Урок16. Сделал слайдер](https://maxstepnoy.github.io/lesson_16/index.html)
+* [Практика, часть 4. Применил слайдеры в верстке](https://maxStepnoy.github.io/project4/src/index.html)
