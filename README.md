@@ -16,3 +16,4 @@
 * [Урок16. Сделал слайдер](https://maxstepnoy.github.io/lesson_16/index.html)
 * [Практика, часть 4. Применил слайдеры в верстке](https://maxStepnoy.github.io/project4/src/index.html)
 * [Урок17. Модальное окно Bootstrap](https://maxstepnoy.github.io/lesson_17/index.html)
+* [Практика, часть 5. Сделал всплывающее оконце](https://maxstepnoy.github.io/project5/src/index.html)
