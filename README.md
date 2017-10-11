@@ -17,4 +17,4 @@
 * [Практика, часть 4. Применил слайдеры в верстке](https://maxStepnoy.github.io/project4/src/index.html)
 * [Урок17. Модальное окно Bootstrap](https://maxstepnoy.github.io/lesson_17/index.html)
 * [Практика, часть 5. Сделал всплывающее оконце](https://maxstepnoy.github.io/project5/src/index.html)
-* [Урок18. Аккордеон](https://maxstepnoy.github.io/lesson-18/index.html)[и табы](MaxStepnoy.github.io/lesson-18/lesson_18_2/index2.html)
+* [Урок18. Аккордеон](https://maxstepnoy.github.io/lesson-18/index.html)[ и табы](MaxStepnoy.github.io/lesson-18/lesson_18_2/index2.html)
