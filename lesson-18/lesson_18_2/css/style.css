@@ -3,10 +3,17 @@
 }
 
 .my-tab {
+  z-index: 100;
   width: 629px;
   height: 444px;
 }
 
+.angle-img {
+  z-index: 10;
+  margin-left: 630px;
+  margin-top: 409px;
+  position: absolute;
+}
 body {
   background: url("../img/3-layers.png");
 }
@@ -122,7 +129,7 @@ chekbox{
   width: 131px;
   height: 44px;
   background-image: radial-gradient(circle 66px at center, #cf2303 0%, #7f0501 100%);
-  margin-left: 440px;
+  margin-left: 450px;
   margin-top: -15px;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
