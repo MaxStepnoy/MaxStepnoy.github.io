@@ -266,23 +266,37 @@ section {
 
 // Оформление секции с ценами
 .price {
+    h2 {
+        padding-bottom: 1.3rem;
+    }
     background: @icons-color url("../img/price/green-bg.png") repeat;
     &-header-btn {
-        margin-top: 2.5rem;;
+        margin-top: 1.5rem;
+        font-size: 14px;
+        font-weight: 400;
+        width: 300px;
+        height: 6rem;
+       
     }
     &-button {
         text-align: right;
+        padding: 1rem;
+        
+       
+        
+        
     } // карточки с ценами
     &-block {
         margin-top: 2rem;
         padding: 1rem 3rem 4rem;
-        min-height: 50rem;
+        min-height: 59rem;
         background-color: @light;
         text-align: center;
         box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
         h4 {
             margin: 3rem 0;
             font-size: 1.9rem;
+           
             .bold()
         }
         img {
@@ -290,6 +304,11 @@ section {
             margin-bottom: 2rem;
             width: 100%;
             max-width: 30rem;
+            vertical-align: middle;
+        }
+        .button {
+            margin-top: 10rem;
+           
         }
     }
     &-tag {
@@ -305,6 +324,7 @@ section {
         font-size: 1.6rem;
         line-height: 1.6;
         padding: 0;
+       
        
         li {
             &:before {
@@ -359,6 +379,40 @@ section {
         font-weight: bold;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 991px) {
     .main {
