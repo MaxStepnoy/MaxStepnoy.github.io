@@ -18,5 +18,6 @@
 * [Урок17. Модальное окно Bootstrap](https://maxstepnoy.github.io/lesson_17/index.html)
 * [Практика, часть 5. Сделал всплывающее оконце](https://maxstepnoy.github.io/project5/src/index.html)
 * [Урок18. Аккордеон](https://maxstepnoy.github.io/lesson-18/index.html)[ и табы](https://maxstepnoy.github.io/lesson-18/lesson_18_2/index2.html)
-* [Практика, часть 5. Наверстывем макет](https://maxstepnoy.github.io/practice6/src/index.html)
+* [Практика, часть 6. Наверстывем макет](https://maxstepnoy.github.io/practice6/src/index.html)
 * [Урок19. Анимация на CSS3](https://maxstepnoy.github.io/lesson_19/index2.html)
+* [Практика, часть 7. Верстка блока с отзывами](https://maxstepnoy.github.io/practice7/src/index.html)
