@@ -23,3 +23,4 @@
 * [Практика, часть 7. Верстка блока с отзывами](https://maxstepnoy.github.io/practice7/src/index.html)
 * [Урок20. Видеофон](https://maxstepnoy.github.io/lesson_20/index.html)
 * [Практика, часть 8. Адаптив блока с отзывами](https://maxstepnoy.github.io/practice8/src/index.html)
+* [Практика, часть 9. Верстаем схему работы и все включено](https://maxstepnoy.github.io/practice9/src/index.html)
