@@ -34,6 +34,7 @@
 @bg-light: #f5f5f5;
 @light: #fff;
 @border-input: #dddddd;
+@problems-color: #e8e8e8;
 
 /* Basic settings */
 
@@ -276,7 +277,6 @@ section {
         width: 300px;
         height: 6rem;
     }
-   
     &-button {
         text-align: right;
         padding: 1rem;
@@ -407,15 +407,14 @@ section {
             font-size: 2rem;
             margin-bottom: 1rem;
         }
-    label {
-        transform: translate(-50%, 8px)
-    }    
-   
+        label {
+            transform: translate(-50%, 8px)
+        }
     }
-&-btn {
-    max-width: 30rem;
-    margin: auto;
-}   
+    &-btn {
+        max-width: 30rem;
+        margin: auto;
+    }
 }
 
 .hand {
@@ -425,15 +424,13 @@ section {
     max-width: 30rem;
 }
 
-
-
 // Оформление схемы работ
 .scheme {
     background: url("../img/scheme/bg.png") bottom -10rem right -15rem no-repeat;
     background-size: 65rem;
-    &-box{
+    &-box {
         min-height: 30rem;
-        h3{
+        h3 {
             font-size: 2rem;
             .bold();
         }
@@ -441,29 +438,30 @@ section {
 }
 
 // Все включено
-.all-inclusive{
-    .section-header{
+.all-inclusive {
+    .section-header {
         h2 {
             color: @icons-color;
-        } 
+        }
     }
     background: @bg-light;
-    .media{
+    .media {
         min-height: 15rem;
-        h4{
+        h4 {
             .bold();
             font-size: 1.6em;
         }
         font-size: 1.3rem;
     }
 }
+
 .circle {
     display: inline-block;
     background-color: @icons-color;
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    &-border{
+    &-border {
         padding: 0.3rem;
         display: inline-block;
         width: 5rem;
@@ -475,21 +473,70 @@ section {
         color: @light;
         .bold();
         font-size: 1.9rem;
-
     }
 }
 
+// Мы развеем все опасения
+.problems {
+    position: relative;
+    &-woman{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 30rem;
+        margin-left: -19rem;
+    }
+    &-list {
+        border: 4px solid;
+        padding: 2rem;
+        min-height: 35rem;
+        margin-bottom: 2rem;
+        h4 {
+            font-size: 2.1rem;
+            .bold()
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+            padding-top: 2rem;
+            li {
+                &:before {
+                content: '';
+                position: absolute;
+                left:0;
+                top:50%;
+                transform: translatey(-50%);
+                width: 3rem;
+                height: 3rem;
+                }
+                position: relative;
+                padding-left: 3.5rem;
+                margin-bottom: 3rem;
+            }
+        }
+        &_bad {
+            border-color: @problems-color;
+            h4 {
+                opacity: 0.5;
+              
+            }
+            ul li:before{
+                background: url("../img/no-problems/bad.png") center no-repeat;
+                background-size: 70%;
 
+            }
+        }
+        &_solution {
+            border-color: @icons-color;
+            ul li:before{
+                background: url("../img/no-problems/good.png") center no-repeat;
+                background-size: 70%;
+              
 
-
-
-
-
-
-
-
-
-
+            }
+        }
+    }
+}
 
 
 
@@ -507,6 +554,7 @@ section {
         margin-top: 3rem;
         padding: 0;
     }
+
     &-close {
         position: absolute;
         top: -1.5rem;
@@ -518,6 +566,7 @@ section {
         font-size: 3rem;
         color: @light;
     }
+
     &-content {
         text-align: center;
         position: fixed;
@@ -527,49 +576,44 @@ section {
         padding: 4rem 6rem;
         background-color: @light;
     }
+
     &-header {
         font-weight: bold;
     }
 }
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1199px) {
-    .feedback{
-        &-form{
+    .feedback {
+        &-form {
             padding: 3rem 5rem;
-
         }
         .fotorama {
             margin-bottom: 3rem;
         }
     }
-
+    .problems{
+        &-lsit{
+            min-height: 40rem;
+        }
+    }
 }
-
-
-
 @media (max-width: 991px) {
     .main {
         background-position: top right;
     }
+
     .phone {
         text-align: center;
     }
+
     .main-content {
         margin-top: 3rem;
     }
+
     .main-title {
         padding-bottom: 3rem;
         text-align: center;
     }
+
     .price {
         &-button {
             text-align: center;
@@ -586,9 +630,10 @@ section {
             margin-top: 2rem;
         }
     }
+
     .feedback {
-        &-form{
-            label{
+        &-form {
+            label {
                 transform: translate(-50%, -50%)
             }
         }
@@ -596,53 +641,65 @@ section {
             display: none;
         }
     }
-   
+    .problems{
+        &-list{
+            min-height: auto;
+        }
+        &-woman{
+            display: none;
+        }
+    }
 }
-
 @media (max-width: 767px) {
     .main {
         background-position: top left;
-        h1{
+        h1 {
             font-size: 2.5rem;
         }
     }
+
     .header {
         text-align: center;
     }
+
     .wrap-block {
         text-align: center;
     }
-    .feedback{
+
+    .feedback {
         &-prev-btn {
             left: 0px;
         }
         &-next-btn {
             right: 0px;
+        }
     }
-}
-    .scheme{
+
+    .scheme {
         background: none;
         text-align: center;
-        &-box{
+        &-box {
             min-height: 20rem;
         }
     }
+    .problems{
+        &-woman{
+            display: none;
+        }
+    }
 }
-
 @media (max-width: 480px) {
-    .feedback{
+    .feedback {
         &-prev-btn {
             left: 0;
         }
         &-next-btn {
             right: 0;
+        }
     }
 }
-}
-
 @media (max-width: 320px) {
     .main-content h1 {
         font-size: 1rem;
     }
-
 }

@@ -413,6 +413,62 @@ section {
   font-family: 'ProximaNova_bold', sans-serif;
   font-size: 1.9rem;
 }
+.problems {
+  position: relative;
+}
+.problems-woman {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 30rem;
+  margin-left: -19rem;
+}
+.problems-list {
+  border: 4px solid;
+  padding: 2rem;
+  min-height: 35rem;
+  margin-bottom: 2rem;
+}
+.problems-list h4 {
+  font-size: 2.1rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.problems-list ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 2rem;
+}
+.problems-list ul li {
+  position: relative;
+  padding-left: 3.5rem;
+  margin-bottom: 3rem;
+}
+.problems-list ul li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translatey(-50%);
+  width: 3rem;
+  height: 3rem;
+}
+.problems-list_bad {
+  border-color: #e8e8e8;
+}
+.problems-list_bad h4 {
+  opacity: 0.5;
+}
+.problems-list_bad ul li:before {
+  background: url("../img/no-problems/bad.png") center no-repeat;
+  background-size: 70%;
+}
+.problems-list_solution {
+  border-color: #45b613;
+}
+.problems-list_solution ul li:before {
+  background: url("../img/no-problems/good.png") center no-repeat;
+  background-size: 70%;
+}
 .popup {
   display: none;
   position: fixed;
@@ -457,6 +513,9 @@ section {
   .feedback .fotorama {
     margin-bottom: 3rem;
   }
+  .problems-lsit {
+    min-height: 40rem;
+  }
 }
 @media (max-width: 991px) {
   .main {
@@ -492,6 +551,12 @@ section {
   .feedback .hand {
     display: none;
   }
+  .problems-list {
+    min-height: auto;
+  }
+  .problems-woman {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .main {
@@ -518,6 +583,9 @@ section {
   }
   .scheme-box {
     min-height: 20rem;
+  }
+  .problems-woman {
+    display: none;
   }
 }
 @media (max-width: 480px) {
