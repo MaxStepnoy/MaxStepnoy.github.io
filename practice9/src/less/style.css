@@ -426,7 +426,7 @@ section {
 .problems-list {
   border: 4px solid;
   padding: 2rem;
-  min-height: 35rem;
+  min-height: 39rem;
   margin-bottom: 2rem;
 }
 .problems-list h4 {
@@ -512,9 +512,6 @@ section {
   }
   .feedback .fotorama {
     margin-bottom: 3rem;
-  }
-  .problems-lsit {
-    min-height: 40rem;
   }
 }
 @media (max-width: 991px) {
