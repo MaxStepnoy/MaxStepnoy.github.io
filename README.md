@@ -25,3 +25,4 @@
 * [Практика, часть 8. Адаптив блока с отзывами](https://maxstepnoy.github.io/practice8/src/index.html)
 * [Практика, часть 9. Верстаем схему работы и все включено](https://maxstepnoy.github.io/practice9/src/index.html)
 * [Урок22. Гео-карты для сайта](https://maxstepnoy.github.io/lesson_22/index2.html)
+* [Практика, часть 10. Верстаем сомнительный блок](https://maxstepnoy.github.io/practice9/src/index.html)
