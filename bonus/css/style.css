@@ -1,0 +1,121 @@
+.container-fluid{
+    padding: 0 !important;
+}
+
+.header-block_properties {
+    padding: 35px 115px;
+    text-align: center;
+    /* height: 90px; */
+    /* margin-top: 45px; */
+}
+
+.header-block__hrefs_properties {
+    margin-right: 31px;
+    font-size: 15px;
+    color: 343e5c;
+}
+
+.sign-and-buy-block_properties {
+    display: inline-block;
+}
+
+.sign-and-buy-block__cart_properties {
+    display: inline-block;
+}
+
+.sign-and-buy-block__circle_radius {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #e3e8f0;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.sign-and-buy-block__p-properties {
+    display: inline-block;
+}
+
+.sign-and-buy-block__button_decoration {
+    border: 2px solid gray;
+    display: inline-block;
+    border-radius: 25px;
+    background-color: #fff;
+    width: 80px;
+    height: 30px;
+    margin-left: 35px;
+}
+
+.header-tab-block_properties {
+    padding: 28px 115px;
+    border-top: 1px solid #b9bed1;
+}
+
+.header-tab__hrefs_props {
+    margin-right: 38px;
+    font-size: 11px;
+    color: #b9bed1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header-tab__hrefs-support_props {
+    margin-right: 60px;
+    color: #b9bed1;
+}
+
+.header-tab__hrefs-look_props {
+    margin-right: 60px;
+    color: #b9bed1;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.main-window-block_properties{
+    /* background: url("../img/Placeholder.png") no-repeat; */
+    background-color: #1c1e23;
+    height: 500px;
+    /* background-color: #1c1e23; */
+    background-size: 60%;
+    
+}
+
+.main-window-block__title_size{
+    font-size: 42px;
+    color: #fff;
+    margin-left: 250px;
+    padding-top: 110px;
+}
+
+.main-window-block__title_break{
+    display: block;
+}
+
+.main-window-block__text_text-size{
+    margin-top: 29px;
+    margin-left: 250px;
+    width: 450px;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 65px;
+}
+
+.main-window-block__button_size-color{
+    margin-left: 250px;
+    height: 40px;
+    width: 160px;
+    background-color: #2754eb;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    
+}
+
+.main-window-block_properties{
+    background: url("../img/Placeholder.png") center no-repeat;
+    background-color: #1c1e23;
+    background-size: 100%;
+    height: 500px;
+}
