@@ -30,7 +30,7 @@
 
 # Привет
 
-'''c#
+```cs
 
         [CategoryAttribute("ADC Settings")]
         [DescriptionAttribute("Checking or No high bounds of the input signal during batch.")]
@@ -42,4 +42,4 @@
             set { hi_check = value; }
         }
 
-'''
+```
