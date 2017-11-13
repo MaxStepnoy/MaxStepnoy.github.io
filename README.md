@@ -26,3 +26,20 @@
 * [Практика, часть 9. Верстаем схему работы и все включено](https://maxstepnoy.github.io/practice9/src/index.html)
 * [Урок22. Гео-карты для сайта](https://maxstepnoy.github.io/lesson_22/index2.html)
 * [Практика, часть 10. Верстаем сомнительный блок](https://maxstepnoy.github.io/practice9/src/index.html)
+
+
+# Привет
+
+'''c#
+
+        [CategoryAttribute("ADC Settings")]
+        [DescriptionAttribute("Checking or No high bounds of the input signal during batch.")]
+        [Browsable(true)]
+        [DisplayName("Checking High Bounds")]
+        public bool HiCheck
+        {
+            get { return hi_check; }
+            set { hi_check = value; }
+        }
+
+'''
